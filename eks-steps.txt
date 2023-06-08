@@ -1,16 +1,9 @@
 #1 eks create
-eksctl create cluster -f setup-cluster.yml --profile Admin
 
 #2 eks apply kubeconfig
-aws eks update-kubeconfig --region us-east-1 --name MyEKSCluster --profile Admin
 
 #3 check connect
 kubectl get nodes
-
-#4 enable RDS Db
-
-#5.0.1 all Travis deployment tags are v1.
-#5.0.2 all v1 docker images must be create on hub first.
 
 #5.1 Apply Secrets
 kubectl apply -f aws-secret.yml
