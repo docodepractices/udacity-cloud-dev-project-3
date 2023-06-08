@@ -1,3 +1,6 @@
+My GitRepo: https://github.com/docodepractices/udacity-cloud-dev-project-3
+Front End Link: http://a76d0cf9ca6e341969f381741532fb49-1642945340.us-east-1.elb.amazonaws.com/
+
 # Udagram Image Filtering Application
 
 Udagram is a simple cloud application developed alongside the Udacity Cloud Developer Nanodegree. It allows users to register and log into a web client, post photos to the feed, and process photos using an image filtering microservice.
